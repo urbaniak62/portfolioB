@@ -1,0 +1,273 @@
+body{
+    background: yellow;
+
+}
+
+/* ----------SCROLLBAR */
+
+/* ---SCROLL BAR PROGRESSION */
+.scrollBar{
+    top:0%;
+    width:0;
+    left:0%;
+    height: 5px;
+    position: fixed;
+    background: red;
+    transition : width 0.24s ease-in-out;
+ }
+
+ .scrollBarLeft{
+    top:0%;
+    width:5px;
+    height:0;
+    left:0%;
+    height: 5px;
+    position: fixed;
+    background: red;
+    transition : width 0.24s ease-in-out;
+ }
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ---SCROLL BAR PROGRESSION */
+
+
+/* ----JS ADDCLASS */
+
+
+/* ----JS ADDCLASS */
+
+
+/* header */
+.header{
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: rgba(0,0, 0,0);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header-black{
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: rgba(0,0, 0,.518);
+    position: fixed;
+    top: 0;
+    transition: background 5s, height 2s, line-heiht 2s;
+    color: white;
+}
+
+header .header-logo{
+    color: yellow;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    font-size: 2em;
+}
+header .header-logo:hover{
+    color:rgb(177, 177, 177);
+    font-size: 2.1em;
+    transition: font-size 0.5s, color 0.5s;
+}
+header .header-menu{
+    float: right;
+    margin-right: 20px;
+}
+header .header-menu a{
+    color: yellow;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-right: 15px;
+}
+header .header-menu a:hover{
+    color:rgb(177, 177, 177);
+    font-size: 1em;
+    transition: font-size 0.5s, color 0.5s;
+}
+/* header */
+
+/* banner */
+.banner{
+    margin-top: -150px;
+}
+.banner .banner-img{
+    position: relative;
+}
+/* ANIMATION BANNER */
+.banner .kenburns-top {
+	-webkit-animation: kenburns-top 5s ease-out both;
+	        animation: kenburns-top 5s ease-out both;
+}
+
+
+.banner .banner-content{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+}
+.banner .banner-content h1{
+    margin: -100px 0px 100px 0px ;
+}
+.banner .banner-content h1,
+.banner .banner-content h2{
+    color: #f2fb05;
+}
+/* ANIMATION TITLE H1 */
+.banner .banner-content .slide-in-top {
+	-webkit-animation: slide-in-top 3.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+	        animation: slide-in-top 3.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+}
+
+ @-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+.banner .banner-content .tracking-in-contract-bck {
+	-webkit-animation: tracking-in-contract-bck 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px);
+              transform: translateZ(400px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.3;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+  /* ANIMATION TITLE H2 */
+  
+/* banner */
+
+
+/* a propos */
+.a-propos{
+    margin-bottom: 30px;
+}
+/* a propos */
+
+/* icon */
+.container{
+    text-align: center;
+    
+}
+.container .columns .aaa ul,
+.container .columns .bbb ul{
+    border-right: 1px solid grey;
+    margin-bottom: 50px;
+}
+.container .columns .column ul li{
+    text-align: center;
+    margin-top: 30px;
+}
+.container .columns .column .svg-inline--fa{
+    font-size:60px;
+    margin-top: 20px;
+}
+
+.container .columns .column .svg-inline--fa{
+    font-size:60px;
+}
+
+.svg-inline--fa {
+	display: inline-block;
+	font-size: 30px;
+	height: 1em;
+	overflow: visible;
+	vertical-align: -.125em;
+}
+/* icon */
+
+
+/* mes travaux HTML*/
+.travaux{
+    
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #363636;
+    font-size: 2em;
+}
+.html  .a{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #363636;
+    font-size: 1.3em;
+}
+
+
+/* mes travaux */
+.container .columns .work{
+  border: 1px solid grey;
+  margin:10px;
+  background: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
