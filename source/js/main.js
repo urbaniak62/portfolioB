@@ -37,18 +37,21 @@ $(document).ready(function() {
         let windowHeight = $(window).height();
         let numberScroll = (scrollTop) / (documentHeight - windowHeight);
         let pourcentage = Math.round(numberScroll * 100 );
-        console.log(pourcentage);
+        console.log(pourcentage +'%');
+                if(pourcentage == 98){
+                    pourcentage += + 2;
+                }
         $('.scrollBar').css('width', pourcentage + '%');
-        if (pourcentage > 21) {
+        if (pourcentage > 21 && pourcentage < 30) {
             $('.header').addClass('header-black');
             $('.header-logo').addClass('header-display');
             $('.header-menu a ').addClass('display');
         }
-        else if (pourcentage < 21 ) {
+        else {
             $('.header').removeClass('header-black');
             $('.header-logo').removeClass('header-display');
             $('.header-menu a ').removeClass('display');
-            console.log('39');
+            
         } 
        
     });
