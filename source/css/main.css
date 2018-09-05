@@ -49,6 +49,7 @@ h1,h2,h3,h4,h5,h6{
     background: rgba(0,0, 0,0);
     position: fixed;
     top: 0;
+    transition: background 3s, height 3s, line-heiht 3s, background 3s;
     z-index: 999;
 }
 
@@ -60,7 +61,7 @@ h1,h2,h3,h4,h5,h6{
     background: rgba(0,0, 0,.518);
     position: fixed;
     top: 0;
-    transition: background 5s, height 2s, line-heiht 2s;
+    transition: background 3s, height 3s, line-heiht 3s;
     color: white;
 }
 
@@ -70,6 +71,7 @@ header .header-logo{
     font-family: 'Montserrat', sans-serif;
     float: left;
     font-size: 2em;
+    transition: color 3s;
 }
 
 header .header-display{
@@ -92,10 +94,20 @@ header .header-menu{
 }
 header .header-menu a{
     color: yellow;
-    font-size: 0.9em;
+    font-size: 1.1em;
     font-weight: bold;
     margin-right: 15px;
+    transition: color 3s, font-size 5s;
 }
+
+header .header-menu  .display{
+    color: rgb(177, 177, 177);
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: color 3s, font-size 5s;
+}
+
 header .header-menu a:hover{
     color:rgb(177, 177, 177);
     font-size: 1em;

@@ -39,10 +39,18 @@ $(document).ready(function() {
         let pourcentage = Math.round(numberScroll * 100 );
         console.log(pourcentage);
         $('.scrollBar').css('width', pourcentage + '%');
-        if (pourcentage > 19 ) {
+        if (pourcentage > 22) {
             $('.header').addClass('header-black');
-            $('.header-logo').addClass('header-display')
+            $('.header-logo').addClass('header-display');
+            $('.header-menu a ').addClass('display');
         }
+        else if (pourcentage < 22 ) {
+            $('.header').removeClass('header-black');
+            $('.header-logo').removeClass('header-display');
+            $('.header-menu a ').removeClass('display');
+            console.log('39');
+        } 
+       
     });
 
 });
