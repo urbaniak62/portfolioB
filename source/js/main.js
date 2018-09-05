@@ -39,12 +39,12 @@ $(document).ready(function() {
         let pourcentage = Math.round(numberScroll * 100 );
         console.log(pourcentage);
         $('.scrollBar').css('width', pourcentage + '%');
-        if (pourcentage > 22) {
+        if (pourcentage > 21) {
             $('.header').addClass('header-black');
             $('.header-logo').addClass('header-display');
             $('.header-menu a ').addClass('display');
         }
-        else if (pourcentage < 22 ) {
+        else if (pourcentage < 21 ) {
             $('.header').removeClass('header-black');
             $('.header-logo').removeClass('header-display');
             $('.header-menu a ').removeClass('display');
