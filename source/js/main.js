@@ -41,6 +41,7 @@ $(document).ready(function() {
         $('.scrollBar').css('width', pourcentage + '%');
         if (pourcentage > 19 ) {
             $('.header').addClass('header-black');
+            $('.header-logo').addClass('header-display')
         }
     });
 
