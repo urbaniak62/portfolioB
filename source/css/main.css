@@ -78,7 +78,7 @@ header .header-logo{
 
 header .header-display{
     color:rgb(177, 177, 177,0);
-    margin-left: -130px;
+    margin-left: -330px;
     font-family: 'Montserrat', sans-serif;
     float: left;
     transition: color 1s ease-in;
