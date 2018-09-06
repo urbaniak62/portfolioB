@@ -58,35 +58,11 @@ $(document).ready(function() {
 
 });
 
-    // $(window).fadeIn(function(){
-    //     var fade = $(document).fadeIn();
-    //     $(container .columns .fab).fadeIn(){
-
-    //     }
-    // })
+   
     // --------------------JQUERY
 
 
-// ----------JAVASCRIPT*
 
-        //   SCROLL BAR PROGRESSION
-
-// const body = document.querySelector('body');//constante body au query (balise : body)
-// const scrollBar = document.querySelector('.scrollBar');//constante scrollBar a à la class scrollBar
-// const scrollBartLeft = document.querySelector('.scrollBarLeft');//constante scrollLeft à la class (.crollBarLeft)
-
-// window.addEventListener('scroll', ()=>{//ecoute de l'evenement (scroll)
-//     let scroll= window.scrollY /(body.clientHeight - window.innerHeight);//calcul de la taille de l'ecran en scroll, diviser par la taille de la fentre (en poucentage)
-//     let pourcentage = (Math.round(scroll * 100 ));//on multiplies par 100 pour recuperer le porucentage sur une base de 100%
-//     console.log(Math.round(scroll * 100));//on arrondi le porcentage example 96.58 = 97%
-//     scrollBar.style.width= pourcentage + '%' ;//ajout de style largeur(.style.width en lui ajoutant des pourcentage sur la whidth ('%')
-//     scrollBartLeft.style.height = pourcentage + '%';//ajout de style sur la hauteur par rapport au pourcentage du scroll
-// })
-        //   SCROLL BAR PROGRESSION
-
-
-
-// ----------JAVASCRIPT*
 
 
 
