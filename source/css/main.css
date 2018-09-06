@@ -248,7 +248,13 @@ header .header-menu a:hover{
     font-family: 'Montserrat', sans-serif;
     color: #363636;
     font-size: 2em;
+    
+    width : 100%;
 }
+.block .travaux img{
+    position: relative;
+ }
+
 .html  .a{
     margin-top: 30px;
     text-align: center;
@@ -262,17 +268,35 @@ header .header-menu a:hover{
 .container .columns .work{
   
   margin:10px;
-  background: #000000;
+  background: rgb(0, 0, 0);
 }
 
+/* -----CONTACT */
 
+.contact-img img{
+    position: absolute;
+}
 
+#contact-container{
+    padding-top: 14%;
+}
 
+#contact-container h3{
+    color:#d0d2d6;
+}
 
-
-
-
-
+#contact-container form label{
+    color:#d0d2d6;
+}
+#contact-container form input{
+    background: #d0d2d6;
+}
+#contact-container form textarea{
+    background:#d0d2d6;
+}
+.field{
+    margin-top: 1%;
+}
 
 
 
