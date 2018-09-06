@@ -42,7 +42,7 @@ $(document).ready(function() {
                     pourcentage += + 2;
                 }
         $('.scrollBar').css('width', pourcentage + '%');
-        if (pourcentage >= 18 && pourcentage < 31) {
+        if (pourcentage > 21 && pourcentage < 30) {
             $('.header').addClass('header-black');
             $('.header-logo').addClass('header-display');
             $('.header-menu a ').addClass('display');
