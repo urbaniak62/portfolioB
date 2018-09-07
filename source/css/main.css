@@ -232,9 +232,9 @@ header .header-menu a:hover{
     margin-top: 20px;
 }
 .competence-scroll{
-    transform: translateX(-0%);
+    transform: translateX(0%);
     height: auto;
-    transition: transform 2s, height auto;
+    transition: all 2s;
 }
 
 .container .columns .column .svg-inline--fa{
