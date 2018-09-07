@@ -52,8 +52,11 @@ $(document).ready(function() {
             $('.header-logo').removeClass('header-display');
             $('.header-menu a ').removeClass('display');
             
-        } 
-       
+        };
+        
+        if (pourcentage >= 21 && pourcentage <32) {
+            $('.competence').addClass('competence-scroll');
+        }
     });
 
 });

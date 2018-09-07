@@ -71,7 +71,7 @@ header .header-logo{
     margin-left: 30px;
     font-family: 'Montserrat', sans-serif;
     float: left;
-    font-size: 2em;
+    font-size: 1.6em;
     transition: color 1s ease-in;
     -moz-transition: all 1s ease-in;
 }
@@ -87,7 +87,7 @@ header .header-display{
 
 header .header-logo:hover{
     color:rgb(177, 177, 177);
-    font-size: 2.1em;
+    font-size: 1.7em;
     transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
 }
@@ -97,7 +97,7 @@ header .header-menu{
 }
 header .header-menu a{
     color: yellow;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     margin-right: 15px;
     transition: color 1s, font-size 1s ease-in;
@@ -115,7 +115,7 @@ header .header-menu  .display{
 
 header .header-menu a:hover{
     color:rgb(177, 177, 177);
-    font-size: 1em;
+    font-size: 1.1em;
     transition: font-size 0.5s, color 0.5s;
 }
 /* header */
@@ -203,6 +203,7 @@ header .header-menu a:hover{
 
 
 /* a propos */
+
 .a-propos{
     margin-bottom: 30px;
 }
@@ -222,9 +223,18 @@ header .header-menu a:hover{
     text-align: center;
     margin-top: 30px;
 }
+.competence{
+    transform: translateX(-250%);
+    height: 80px;
+}
 .container .columns .column .svg-inline--fa{
     font-size:60px;
     margin-top: 20px;
+}
+.competence-scroll{
+    transform: translateX(-0%);
+    height: auto;
+    transition: transform 2s, height auto;
 }
 
 .container .columns .column .svg-inline--fa{
@@ -298,7 +308,41 @@ header .header-menu a:hover{
     margin-top: 1%;
 }
 
-
+/* -------------MEDIA QUERY */
+@media screen and (max-width : 850px){
+    header .header-logo{
+        display: none;
+    }
+    header .header-menu{
+        float: left;
+        margin-left: 20px;
+    }
+    .banner img{
+        width: 100%;
+        height: 100vh;
+    }
+    .banner .banner-content{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        text-align: center;
+    }
+    .banner .banner-content h1{
+        margin: -100px 0px 100px 0px ;
+    }
+    .banner .banner-content h1,
+    .banner .banner-content h2{
+        color: #f2fb05;
+    }
+    .competence{
+        transform: translateX(-0%);
+        height: auto;
+    }
+    .container .columns{
+        display: inline-block;
+        width:80%;
+    }
+}
 
 
 
