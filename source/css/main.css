@@ -342,6 +342,13 @@ header .header-menu a:hover{
         display: inline-block;
         width:80%;
     }
+    .contact-img{
+        height:100%;
+    }
+    #contact-container{
+        padding-top:7%;
+        width:80%;
+    }
 }
 
 
