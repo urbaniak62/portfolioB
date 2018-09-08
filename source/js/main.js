@@ -57,6 +57,13 @@ $(document).ready(function() {
         if (pourcentage >= 21 && pourcentage <32) {
             $('.competence').addClass('competence-scroll');
         }
+        if(pourcentage >=89){
+            $('#contact-container form label').addClass('label-scroll');
+            $('#contact-container form input').addClass('input-scroll');
+            $('#contact-container form span').addClass('span-scroll');
+            $('#contact-container form .textarea').addClass('textarea-scroll');
+        }
+        
     });
 
 });

@@ -297,12 +297,37 @@ header .header-menu a:hover{
 
 #contact-container form label{
     color:#d0d2d6;
+    transform: translateX(100%);
+}
+#contact-container form .label-scroll{
+    color:#d0d2d6;
+    transform: translateX(0%);
+    transition: all 3s;
 }
 #contact-container form input{
     background: #d0d2d6;
+    transform: translateX(-130%);
+}
+#contact-container form span{
+    opacity: 0;
+}
+#contact-container form  .span-scroll{
+    opacity: 1;
+    transition: all 5s;
+}
+#contact-container form  .input-scroll{
+    background: #d0d2d6;
+    transform: translateX(0%);
+    transition: all 3s;
 }
 #contact-container form textarea{
     background:#d0d2d6;
+    transform: translatex(130%)
+}
+#contact-container form .textarea-scroll{
+    background:#d0d2d6;
+    transform: translatex(0%);
+    transition: all 5s;
 }
 .field{
     margin-top: 1%;
