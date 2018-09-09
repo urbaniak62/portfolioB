@@ -410,6 +410,7 @@ header .header-menu a:hover{
         margin-top:4%;
         float: right;
         display: block;
+        cursor: pointer;
         
     }
     header .header-menu {
@@ -418,8 +419,8 @@ header .header-menu a:hover{
         margin-top: 2%;
     }
     header .header-menu a{
-        display: none;
-        transition: all 1s ease-in;
+        display: block;
+        transition: all 4s ease-in;
     }
     .banner .banner-content h1, 
     .banner .banner-content h2 {

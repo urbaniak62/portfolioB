@@ -65,7 +65,10 @@ $(document).ready(function() {
         }
         
     });
-
+    $('header .header-menu .hamburger').click(function(){
+        console.log('click');
+        $('header .header-menu a').toggle();
+    });
         
 
 });
