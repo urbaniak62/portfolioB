@@ -95,24 +95,21 @@ header .header-menu{
     float: right;
     margin-right: 20px;
 }
-header .header-menu .hamberguer{
-    float: right;
-    height: 70px;
-    width: 70px;
-    line-height: 70px;
-    text-align: center;
+header .header-menu .hamburger{
     position: relative;
-    margin-top:2%;
+    margin-top:4%;
+    float: right;
     display: none;
 }
-header .header-menu .hamberguer span{
-    width: 40px;
+
+header .header-menu  span{
+    width: 30px;
     height: 3px;
     background: yellow;
     border-radius: 40px;
     display: block;
 
-    margin-top:10px;
+    margin-top:5px;
 }
 
 header .header-menu a{
@@ -396,7 +393,40 @@ header .header-menu a:hover{
     }
 }
 
-
+@media screen and (max-width: 600px){
+    .header {
+        margin: 0;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        background: rgb(0, 0, 0);
+        position: fixed;
+        top: 0;
+        transition: all 1s ease-in;
+        z-index: 999;
+    }
+    header .header-menu .hamburger{
+        position: relative;
+        margin-top:4%;
+        float: right;
+        display: block;
+        
+    }
+    header .header-menu {
+        float: left;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    header .header-menu a{
+        display: none;
+        transition: all 1s ease-in;
+    }
+    .banner .banner-content h1, 
+    .banner .banner-content h2 {
+        color: #f2fb05;
+        font-size: x-large;
+    }
+}
 
 
 
