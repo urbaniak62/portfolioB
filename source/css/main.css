@@ -132,8 +132,8 @@ header .header-menu  .display{
 
 header .header-menu a:hover{
     color:rgb(177, 177, 177);
-    font-size: 1.1em;
-    transition: font-size 0.5s, color 0.5s;
+    transform: scale(1.1);
+    transition: transform 0.3s, color 0.3s;
 }
 /* header */
 
@@ -230,6 +230,10 @@ header .header-menu a:hover{
 .container{
     text-align: center;
     
+}
+.container .work:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
 }
 .container .columns .aaa ul,
 .container .columns .bbb ul{
@@ -407,20 +411,38 @@ header .header-menu a:hover{
     }
     header .header-menu .hamburger{
         position: relative;
-        margin-top:4%;
-        float: right;
+
+        margin-top: 4%;
+        
+        float: left;
+        
         display: block;
+        
         cursor: pointer;
+        
+        margin: 4%;
         
     }
     header .header-menu {
-        float: left;
-        margin-left: 2%;
-        margin-top: 2%;
+        margin-left: 0%;
+        margin-top: 1%;
+        width: 256px;
+        height: 100vh;
     }
     header .header-menu a{
         display: block;
-        transition: all 4s ease-in;
+
+        transition: display 5s linear;
+
+        clear: both;
+
+        margin-bottom: 0px;
+
+        background: black;
+
+        text-align: center;
+
+        border-bottom: 1px solid #292626;
     }
     .banner .banner-content h1, 
     .banner .banner-content h2 {
