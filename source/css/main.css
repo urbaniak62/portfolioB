@@ -2,7 +2,9 @@ body{
     background: yellow;
 
 }
-
+img{
+    object-fit: cover;
+}
 /* ----------SCROLLBAR */
 
 /* ---SCROLL BAR PROGRESSION */
@@ -310,6 +312,7 @@ header .header-menu a:hover{
 
 .contact-img img{
     position: absolute;
+    height: -webkit-fill-available;
 }
 
 #contact-container{
